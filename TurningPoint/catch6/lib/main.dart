@@ -4,6 +4,6 @@ import 'dart:developer';
 import 'dart:isolate';
 
 void main() async{
-  WidgetsFlutterBinding ensureInitializied;
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
