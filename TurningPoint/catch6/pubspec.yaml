@@ -37,6 +37,10 @@ dependencies:
   isolate: 2.1.1
   tflite: ^1.1.2
   firebase_core: 1.18.0
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  camera: ^0.9.8+1
+
 
 dev_dependencies:
   flutter_test:
@@ -61,9 +65,11 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-#  assets:
-#    - assets/labels.txt
-#    - assets/mobilenet_v1_1.0_224.tflite
+  assets:
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilnet.txt
+    - assets/yolov2_tiny.tflite
+    - assets/yolov2_tiny.txt
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

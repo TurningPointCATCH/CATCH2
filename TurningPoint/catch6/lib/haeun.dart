@@ -1,80 +1,79 @@
 import 'dart:developer';
 import 'dart:isolate';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class isolation extends StatefulWidget {
-  const isolation({Key? key}) : super(key: key);
+import 'package:camera/camera.dart';
+import 'package:tflite/tflite.dart';
+import 'dart:math' as math;
+
+import 'bndbox.dart';
+import 'camera.dart';
+import 'models.dart';
+
+class Haeun extends StatefulWidget {
+  final List<CameraDescription> cameras;
+
+  Haeun(this.cameras);
 
   @override
-  _isolationState createState() => _isolationState();
+  _HaeunState createState() => _HaeunState();
 }
 
-class _isolationState extends State<isolation> {
+class _HaeunState extends State<Haeun> {
+  List<dynamic> _recognitions=[];
+  int _imageHeight = 0;
+  int _imageWidth = 0;
+  String _model = "";
 
-  initState(){
-    createIsolate();
+  @override
+  void initState() {
+    super.initState();
+    loadModel();
+  }
+
+  loadModel() async {
+    String? res;
+    String? res2;
+
+    res = await Tflite.loadModel(
+      model: "assets/yolov2_tiny.tflite",
+      labels: "assets/yolov2_tiny.txt",
+    );
+    res2 = await Tflite.loadModel(
+        model: "assets/ssd_mobilenet.tflite",
+        labels: "assets/ssd_mobilenet.txt");
+  }
+
+  setRecognitions(recognitions, imageHeight, imageWidth) {
+    setState(() {
+      _recognitions = recognitions;
+      _imageHeight = imageHeight;
+      _imageWidth = imageWidth;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
+    Size screen = MediaQuery.of(context).size;
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
-        ]
-      )
+          Camera(
+            widget.cameras,
+            _model,
+            setRecognitions,
+          ),
+          BndBox(
+              _recognitions == null ? [] : _recognitions,
+              math.max(_imageHeight, _imageWidth),
+              math.min(_imageHeight, _imageWidth),
+              screen.height,
+              screen.width,
+              _model),
+        ],
+      ),
     );
-  }
-}
-
-Future createIsolate() async {
-  /// Where I listen to the message from Mike's port
-  ReceivePort myReceivePort = ReceivePort();
-
-  /// Spawn an isolate, passing my receivePort sendPort
-  Isolate.spawn<SendPort>(heavyComputationTask, myReceivePort.sendPort);
-
-  /// Mike sends a senderPort for me to enable me to send him a message via his sendPort.
-  /// I receive Mike's senderPort via my receivePort
-  SendPort mikeSendPort = await myReceivePort.first;
-
-  /// I set up another receivePort to receive Mike's response.
-
-  ReceivePort mikeResponseReceivePort = ReceivePort();
-
-  /// I send Mike a message using mikeSendPort. I send him a list,
-  /// which includes my message, preferred type of coffee, and finally
-  /// a sendPort from mikeResponseReceivePort that enables Mike to send a message back to me.
-  mikeSendPort.send([
-    "Mike, I'm taking an Espresso coffee",
-    "Espresso",
-    mikeResponseReceivePort.sendPort
-  ]);
-
-  /// I get Mike's response by listening to mikeResponseReceivePort
-  final mikeResponse = await mikeResponseReceivePort.first;
-  log("MIKE'S RESPONSE: ==== $mikeResponse");
-}
-
-void heavyComputationTask(SendPort mySendPort) async {
-  /// Set up a receiver port for Mike
-  ReceivePort mikeReceivePort = ReceivePort();
-
-  /// Send Mike receivePort sendPort via mySendPort
-  mySendPort.send(mikeReceivePort.sendPort);
-
-  /// Listen to messages sent to Mike's receive port
-  await for (var message in mikeReceivePort) {
-    if (message is List) {
-      final myMessage = message[0];
-      final coffeeType = message[1];
-      log(myMessage);
-
-      /// Get Mike's response sendPort
-      final SendPort mikeResponseSendPort = message[2];
-
-      /// Send Mike's response via mikeResponseSendPort
-      mikeResponseSendPort.send("You're taking $coffeeType, and I'm taking Latte");
-    }
   }
 }

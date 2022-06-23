@@ -3,7 +3,21 @@ import 'app.dart';
 import 'dart:developer';
 import 'dart:isolate';
 
-void main() async{
-  WidgetsFlutterBinding ensureInitializied;
-  runApp(const MyApp());
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:camera/camera.dart';
+
+List<CameraDescription> cameras = [];
+
+Future<Null> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    cameras = await availableCameras();
+  } on CameraException catch (e) {
+    print('Error: $e.code\nError Message: $e.message');
+  }
+  runApp(new MyApp(cameras));
+
+  await Hive.initFlutter();
+  await Hive.openBox('picture');
 }

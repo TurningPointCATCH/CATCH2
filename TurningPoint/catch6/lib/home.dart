@@ -1,9 +1,11 @@
+import 'package:camera_platform_interface/src/types/camera_description.dart';
 import 'package:flutter/material.dart';
 
 import 'haeun.dart';
+import 'main.dart';
 
 class home extends StatefulWidget {
-  const home({Key? key}) : super(key: key);
+  const home(List<CameraDescription> cameras, {Key? key}) : super(key: key);
 
   @override
   _homeState createState() => _homeState();
@@ -21,7 +23,7 @@ class _homeState extends State<home> {
                 onPressed: (){
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => isolation(),)
+                      MaterialPageRoute(builder: (context) => Haeun(cameras),)
                   );
                 },
                 child: Text('haeun')
@@ -30,7 +32,7 @@ class _homeState extends State<home> {
                 onPressed: (){
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => isolation(),)
+                      MaterialPageRoute(builder: (context) => Haeun(cameras),)
                   );
                 },
                 child: Text('yuri')
@@ -39,7 +41,7 @@ class _homeState extends State<home> {
                 onPressed: (){
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => isolation(),)
+                      MaterialPageRoute(builder: (context) => Haeun(cameras),)
                   );
                 },
                 child: Text('gyugung')
@@ -48,7 +50,7 @@ class _homeState extends State<home> {
                 onPressed: (){
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => isolation(),)
+                      MaterialPageRoute(builder: (context) => Haeun(cameras),)
                   );
                 },
                 child: Text('eunjin')
