@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.catch11">
+    package="com.example.catch6">
    <application
-        android:label="catch11"
+        android:label="catch6"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

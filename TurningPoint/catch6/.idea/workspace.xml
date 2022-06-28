@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b859b95-39ea-4437-b14c-788a41a25cb0" name="Default Changelist" comment="camera_connect" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2AphzQFPxJ9Nx2koC1LDz33SKwN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/new" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="/desktop/flutter" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b859b95-39ea-4437-b14c-788a41a25cb0" name="Default Changelist" comment="" />
+      <created>1655712695432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655712695432</updated>
+    </task>
+    <task id="LOCAL-00001" summary="try">
+      <created>1655712740109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655712740109</updated>
+    </task>
+    <task id="LOCAL-00002" summary="isolation">
+      <created>1655819001668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655819001668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="isolation2">
+      <created>1655819432753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655819432753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="database_connect">
+      <created>1655884564184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655884564184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="database_connect">
+      <created>1655890617299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655890617301</updated>
+    </task>
+    <task id="LOCAL-00006" summary="button">
+      <created>1655893813644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655893813644</updated>
+    </task>
+    <task id="LOCAL-00007" summary="camera_connect">
+      <created>1655963652329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655963652330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try" />
+    <MESSAGE value="isolation" />
+    <MESSAGE value="isolation2" />
+    <MESSAGE value="database_connect" />
+    <MESSAGE value="button" />
+    <MESSAGE value="camera_connect" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera_connect" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="109" width="1071" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655713153544">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" width="1071" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1655713153544" />
+    <state x="429" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655889364824">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="429" y="268" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875@0.25.1440.875" timestamp="1655889364824" />
+    <state x="457" y="263" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1655713152527">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="263" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1655713152527" />
+    <state x="246" y="450" width="1240" height="675" key="AVDManager" timestamp="1655984844784">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="246" y="450" width="1240" height="675" key="AVDManager/0.25.1440.875@0.25.1440.875" timestamp="1655984844782" />
+    <state x="531" y="213" key="AndroidProcessChooserDialog" timestamp="1655890514356">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="531" y="213" key="AndroidProcessChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1655890514356" />
+    <state width="1398" height="478" key="GridCell.Tab.0.bottom" timestamp="1656045680325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-1055.1920.1055@0.0.1440.900" timestamp="1656028555179" />
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656035313096" />
+    <state width="1398" height="478" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1656045680325" />
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965031786" />
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom/0.25.1440.875/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656038965591" />
+    <state width="1398" height="367" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1655990898088" />
+    <state width="1398" height="478" key="GridCell.Tab.0.center" timestamp="1656045680322">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.center/0.0.1440.900/0.-1055.1920.1055@0.0.1440.900" timestamp="1656028555177" />
+    <state width="1878" height="401" key="GridCell.Tab.0.center/0.0.1440.900/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656035313095" />
+    <state width="1398" height="478" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1656045680322" />
+    <state width="1398" height="253" key="GridCell.Tab.0.center/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965031777" />
+    <state width="1878" height="401" key="GridCell.Tab.0.center/0.25.1440.875/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656038965589" />
+    <state width="1398" height="367" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1655990898087" />
+    <state width="1398" height="478" key="GridCell.Tab.0.left" timestamp="1656045680317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.left/0.0.1440.900/0.-1055.1920.1055@0.0.1440.900" timestamp="1656028555176" />
+    <state width="1878" height="401" key="GridCell.Tab.0.left/0.0.1440.900/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656035313093" />
+    <state width="1398" height="478" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1656045680317" />
+    <state width="1398" height="253" key="GridCell.Tab.0.left/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965031772" />
+    <state width="1878" height="401" key="GridCell.Tab.0.left/0.25.1440.875/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656038965588" />
+    <state width="1398" height="367" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1655990898086" />
+    <state width="1398" height="478" key="GridCell.Tab.0.right" timestamp="1656045680323">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.right/0.0.1440.900/0.-1055.1920.1055@0.0.1440.900" timestamp="1656028555178" />
+    <state width="1878" height="401" key="GridCell.Tab.0.right/0.0.1440.900/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656035313096" />
+    <state width="1398" height="478" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1656045680323" />
+    <state width="1398" height="253" key="GridCell.Tab.0.right/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965031778" />
+    <state width="1878" height="401" key="GridCell.Tab.0.right/0.25.1440.875/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656038965590" />
+    <state width="1398" height="367" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1655990898087" />
+    <state x="288" y="40" key="MergeDialog" timestamp="1655889337945">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="288" y="40" key="MergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1655889337945" />
+    <state x="373" y="228" key="MultipleFileMergeDialog" timestamp="1655889337974">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="373" y="228" key="MultipleFileMergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1655889337974" />
+    <state x="228" y="105" key="SettingsEditor" timestamp="1655713139120">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="228" y="105" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1655713139120" />
+    <state x="848" y="-670" key="Vcs.Push.Dialog.v2" timestamp="1655965839223">
+      <screen x="0" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1655712752556" />
+    <state x="848" y="-670" key="Vcs.Push.Dialog.v2/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965839223" />
+    <state x="320" y="207" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1655893901424" />
+    <state x="1190" y="-664" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1655965645991">
+      <screen x="0" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="1190" y="-664" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.875/0.-1055.1920.1055@0.-1055.1920.1055" timestamp="1655965645991" />
+    <state x="497" y="355" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.875@0.25.1440.875" timestamp="1655819422270" />
+    <state x="508" y="-922" width="703" height="635" key="new project wizard" timestamp="1656402013589">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="381" y="132" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1656000273232" />
+    <state x="508" y="-922" width="703" height="635" key="new project wizard/0.25.1440.875/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1656402013589" />
+  </component>
+</project>
